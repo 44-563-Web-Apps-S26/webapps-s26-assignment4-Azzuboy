@@ -78,3 +78,38 @@
   font-size: 18px;
   color: black;
 }
+
+.cast-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 24px auto 32px auto;
+  font-family: "Verdana", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  border: 2px solid #2f3e46;
+}
+
+.cast-table th,
+.cast-table td {
+  border: 1px solid #7a8a99;
+  padding: 10px 14px;
+}
+
+.cast-table th {
+  background-color: #2f3e46;
+  color: #ffffff;
+  text-align: center;
+}
+
+.cast-table tr:nth-child(even) {
+  background-color: #eef3f7;
+}
+
+.cast-table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.cast-table td:nth-child(3) {
+  text-align: right;
+  font-weight: 600;
+}

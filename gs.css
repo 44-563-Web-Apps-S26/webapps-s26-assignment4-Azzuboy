@@ -35,6 +35,13 @@
   font-weight: 700;
 }
 
+.name:hover {
+  text-shadow: 2px 2px 8px #00bcd4;
+  border: 2px solid #ff6f61;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
 /* Character styles */
 .cho,
 .chorus {
